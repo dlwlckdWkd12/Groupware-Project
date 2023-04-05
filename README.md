@@ -9,18 +9,20 @@
 
 ## 🧑‍🤝‍🧑 참여 인원
 - 팀장 : 
-- 팀원1 : 이지창 - DB설계 , 회원CRUD , 부서CRUD , FullCalendar-API
+#### - 팀원1 : 이지창 - DB설계 , 회원CRUD , 부서CRUD , FullCalendar-API
 - 팀원2 : 
 - 팀원3 :
 - 팀원4 :
 
 ## ⚙️ 개발환경
-- Java 8
-- JDK 1.8.0
+- OS : Windows10
+- Language : Java , HTML , CSS
 - IDE : IntelliJ , MySQL workbench , Visual studio
 - Framework : Springboot(2.x)
 - Database : Oracle DB
-- 
+
+## 📌 주요 기능
+
 
 
 
