@@ -4,8 +4,10 @@
 ## 🖥️ 개요
 - SpringFramework를 이용한 그룹웨어 웹 프로젝트
 
+
 ## 🕰️ 프로젝트 기간
 -  2023. 03-16 ~ 2023. 04-06
+
 
 ## 🧑‍🤝‍🧑 참여 인원
 - 팀장 : 
@@ -14,12 +16,14 @@
 - 팀원3 :
 - 팀원4 :
 
+
 ## ⚙️ 개발환경
 - OS : Windows10
 - Language : Java , HTML , CSS
 - IDE : IntelliJ , MySQL workbench , Visual studio
 - Framework : Springboot(2.x)
 - Database : Oracle DB
+
 
 ## 📌 주요 기능
 
