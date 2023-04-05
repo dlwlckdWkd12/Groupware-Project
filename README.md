@@ -9,7 +9,7 @@
 
 ## 🧑‍🤝‍🧑 참여 인원
 - 팀장 : 
-#### - 팀원1 : 이지창 - DB설계 , 회원CRUD , 부서CRUD , FullCalendar-API
+- 팀원1 : 이지창 - DB설계 , 회원CRUD , 부서CRUD , FullCalendar-API
 - 팀원2 : 
 - 팀원3 :
 - 팀원4 :
