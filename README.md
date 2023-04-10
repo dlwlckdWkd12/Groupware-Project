@@ -11,7 +11,7 @@
 
 ## 🧑‍🤝‍🧑 참여 인원
 - 팀장 : 강창신 - 
-- 팀원1 : 이지창 - DB설계 , 회원CRUD , 부서CRUD , FullCalendar-API
+- 팀원1 : 이지창 - DB설계 , 회원CRUD , 부서CRUD , FullCalendar-API , AWS EC2 배포
 - 팀원2 : 김득주 -  
 - 팀원3 : 장효선 -  
 - 팀원4 : 허인경 -
