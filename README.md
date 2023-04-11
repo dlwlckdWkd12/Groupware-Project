@@ -26,7 +26,7 @@
 
 ## 📰 DB구조
 
-![image](https://user-images.githubusercontent.com/116870832/231092290-99bebced-a6e6-48bf-8327-f009fe2386f3.png)
+![image](https://user-images.githubusercontent.com/116870832/231098137-44cb19d7-94d7-4f51-aa23-06f998071991.png)
 
 
 
