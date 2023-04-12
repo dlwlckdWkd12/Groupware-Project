@@ -67,14 +67,15 @@ public class PoliceController {
     @PostMapping("/update")
     public String policeUpdate(@ModelAttribute PoliceDto policeDto){
 
-        policeService.policeUpdate(policeDto);
+        policeService.policeUpdate2(policeDto);
+
         return "redirect:/index";
     }
 
 
 
     @GetMapping("/mypage")
-    public String policeList2(Model model){
+    public String myPage(Model model){
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String email = authentication.getName();
         model.addAttribute("police",policeService.policeEmailSearch(email));

@@ -49,6 +49,7 @@ public class PoliceService {
         return policeList;
     }
 
+
     public PoliceDto policeDetail(Long id) {
         Optional<PoliceEntity> policeIdSearch = policeRepository.findByPoliceId(id);
         return PoliceDto.officerView(policeIdSearch.get());
@@ -57,10 +58,26 @@ public class PoliceService {
 
     //회원수정(myPage)
     public void policeUpdate(PoliceDto policeDto){
-        PoliceEntity police=   PoliceService.createOfficer(policeDto, passwordEncoder);
+        PoliceEntity police=PoliceService.createOfficer(policeDto, passwordEncoder);
         policeRepository.save(police);
     }
 
+    public void policeUpdate2(PoliceDto policeDto){
+
+        Optional<PoliceEntity> optionalPolice = policeRepository.findByPoliceId(policeDto.getPoliceId());
+        if (optionalPolice.isPresent()) {
+            PoliceEntity police = optionalPolice.get();
+            police.setPoliceId(policeDto.getPoliceId());
+            police.setPoliceAddress(policeDto.getPoliceAddress());
+            police.setDetailAddress(policeDto.getDetailAddress());
+            police.setZip_code(policeDto.getZip_code());
+            police.setPolicePhone(policeDto.getPolicePhone());
+            police.setPoliceName(policeDto.getPoliceName());
+            police.setEmail(policeDto.getEmail());
+
+            policeRepository.save(police);
+        }
+    }
 
 
     public void policeDelete(Long id){
@@ -82,7 +99,6 @@ public class PoliceService {
         PoliceEntity police = new PoliceEntity();
         police.setPoliceId(policeDto.getPoliceId());
         police.setPassword(passwordEncoder.encode(policeDto.getPassword()));
-//        police.setPassword(policeDto.getPassword());
         police.setPoliceName(policeDto.getPoliceName());
         police.setEmail(policeDto.getEmail());
         police.setPoliceNumber(policeDto.getPoliceNumber());
@@ -120,5 +136,6 @@ public class PoliceService {
         return null;
 
     }
+
 
 }

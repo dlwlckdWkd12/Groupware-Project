@@ -45,7 +45,6 @@ public class PoliceDto {
     public static PoliceDto officerView(PoliceEntity policeEntity){
         PoliceDto police = new PoliceDto();
         police.setPoliceId(policeEntity.getPoliceId());
-//        police.setPassword(passwordEncoder.encode(policeDto.getPassword()));
         police.setPassword(policeEntity.getPassword());
         police.setPoliceName(policeEntity.getPoliceName());
         police.setEmail(policeEntity.getEmail());
@@ -60,6 +59,11 @@ public class PoliceDto {
         police.setDept(policeEntity.getDept());
         return police;
     }
+
+
+
+
+
     public static PoliceDto teamDtoid(PoliceEntity policeEntity) {
 
         PoliceDto policeDto = new PoliceDto();

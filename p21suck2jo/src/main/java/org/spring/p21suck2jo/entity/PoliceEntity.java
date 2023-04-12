@@ -22,6 +22,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Table(name = "police_officer")
 //@Embeddable
 public class PoliceEntity extends BaseEntity{

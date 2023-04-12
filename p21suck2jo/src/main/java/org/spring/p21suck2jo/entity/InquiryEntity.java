@@ -22,9 +22,6 @@ public class InquiryEntity extends BaseEntity{
 
     private String inquiryTitle;
 
-//    @OneToOne
-//    private InquiryAnswerEntity inquiryAnswer;
-
     @Column(columnDefinition = "TEXT")
     private String inquiryContent;
 
