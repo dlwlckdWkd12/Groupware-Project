@@ -50,8 +50,10 @@
 
 #### 간단한 Main View 영상
 
-https://user-images.githubusercontent.com/116870832/231089788-804e8fd3-97a1-48cf-8d6e-59ffd03ff640.mp4
 
+
+
+https://user-images.githubusercontent.com/116870832/231671865-e0f78940-13a6-478a-ae8b-c2503d36c70e.mp4
 
 
 
