@@ -39,7 +39,7 @@
 
 ## 🔧 기능 소개
 ###  ❗ 프로젝트 
-#### 1. 회원가입 - [코드 보기](https://github.com/jichang-lee/Mixtape-shopping/wiki/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88-%EA%B8%B0%EB%8A%A5)
+#### 1. 회원기능 - [코드 보기](https://github.com/jichang-lee/Groupware-Project/wiki/%ED%9A%8C%EC%9B%90-%EA%B8%B0%EB%8A%A5)
 #### 2. 부서 추가,조회,수정,삭제 - [코드 보기](https://github.com/jichang-lee/Mixtape-shopping/wiki/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88-%EA%B8%B0%EB%8A%A5)
 #### 3. 공지사항 추가,조회,수정,삭제
 #### 4. 공지사항에 대한 댓글 기능
