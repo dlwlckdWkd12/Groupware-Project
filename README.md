@@ -12,7 +12,7 @@
 ## 🧑‍🤝‍🧑 참여 인원
 - 팀장 : 강창신 - 결재문서 CRUD , 근태 기능 , naver-API
 - 팀원1 : 이지창 - 회원CRUD , 부서CRUD , FullCalendar-API , AWS EC2 배포
-- 팀원2 : 김득주 - 로그인&Spring Security
+- 팀원2 : 김득주 - 로그인&Spring Security , 아이디/비밀번호 찾기
 - 팀원3 : 장효선 - 게시판CRUD , 댓글CRUD , 전체적인 디자인 수정
 - 팀원4 : 허인경 - 사건CRU , KakaoMap-API , left-Menubar 제작
 
@@ -39,19 +39,24 @@
 
 ## 🔧 기능 소개
 ###  ❗ 프로젝트 
-#### 1. 회원가입 - [코드 보기](https://github.com/jichang-lee/Mixtape-shopping/wiki/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88-%EA%B8%B0%EB%8A%A5)
-#### 2. 부서 추가,조회,수정,삭제 - [코드 보기](https://github.com/jichang-lee/Mixtape-shopping/wiki/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88-%EA%B8%B0%EB%8A%A5)
-#### 3. 공지사항 추가,조회,수정,삭제
+#### 1. 회원 기능 - [코드 보기](https://github.com/jichang-lee/Groupware-Project/wiki/%ED%9A%8C%EC%9B%90-%EA%B8%B0%EB%8A%A5)
+#### 2. 부서 기능 - [코드 보기](https://github.com/jichang-lee/Mixtape-shopping/wiki/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88-%EA%B8%B0%EB%8A%A5)
+#### 3. 공지사항(게시판) 기능
 #### 4. 공지사항에 대한 댓글 기능
-#### 5. 결재문서 작성,조회,수정,삭제
-#### 6. 일정 근태 관리
+#### 5. 결재문서 기능
+#### 6. 근태기능
+#### 7. 사건&사고 관리
+#### 8. fullCalendar-API
+#### 9. naver-workPlace-API 
 
 ---
 
 #### 간단한 Main View 영상
 
-https://user-images.githubusercontent.com/116870832/231089788-804e8fd3-97a1-48cf-8d6e-59ffd03ff640.mp4
 
+
+
+https://user-images.githubusercontent.com/116870832/231671865-e0f78940-13a6-478a-ae8b-c2503d36c70e.mp4
 
 
 
