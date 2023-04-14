@@ -1,6 +1,7 @@
 package org.spring.p21suck2jo.service;
 
 import lombok.RequiredArgsConstructor;
+import org.spring.p21suck2jo.constructor.PoliceConstructors;
 import org.spring.p21suck2jo.dto.MemorandumDto;
 import org.spring.p21suck2jo.dto.PoliceDto;
 import org.spring.p21suck2jo.entity.ApprovingMember;
@@ -82,7 +83,7 @@ public class MemorandumService {
         for(DeptEntity i: deptEntities) {
             List<PoliceEntity> policeEntityList = policeRepository.findByDept(i);
             for(PoliceEntity j:policeEntityList) {
-                PoliceDto policeDto = PoliceDto.officerView(j);
+                PoliceDto policeDto = PoliceConstructors.officerView(j);
                 policeDtos.add(policeDto);
             }
         }

@@ -22,7 +22,6 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Table(name = "police_officer")
 //@Embeddable
 public class PoliceEntity extends BaseEntity{
@@ -81,6 +80,24 @@ public class PoliceEntity extends BaseEntity{
 
 
 
+    public void myPageUpdate(PoliceDto policeDto) {
+        this.setPoliceAddress(policeDto.getPoliceAddress());
+        this.setDetailAddress(policeDto.getDetailAddress());
+        this.setZip_code(policeDto.getZip_code());
+        this.setPolicePhone(policeDto.getPolicePhone());
+        this.setPoliceName(policeDto.getPoliceName());
+        this.setEmail(policeDto.getEmail());
+    }
+
+    public void updatePolice(PoliceDto policeDto,PasswordEncoder passwordEncoder){
+        this.setRanks(policeDto.getRanks());
+        this.setPoliceNumber(policeDto.getPoliceNumber());
+        this.setDept(policeDto.getDept());
+        this.setCreateTime(policeDto.getCreateTime());
+        this.setPassword(passwordEncoder.encode(policeDto.getPassword()));
+    }
+
+
     public static PoliceEntity pwUpdateEntity(PoliceDto policeDto, PasswordEncoder passwordEncoder) {
         PoliceEntity policeEntity = new PoliceEntity();
 
@@ -91,8 +108,6 @@ public class PoliceEntity extends BaseEntity{
         policeEntity.setPoliceName(policeDto.getPoliceName());
         policeEntity.setRanks(policeDto.getRanks());
         policeEntity.setRole(Role.MEMBER);
-//        policeEntity.setCreateTime(policeDto.getCreateTime());
-//        policeEntity.setUpdateTime(policeDto.getUpdateTime());
         return policeEntity;
     }
 }
