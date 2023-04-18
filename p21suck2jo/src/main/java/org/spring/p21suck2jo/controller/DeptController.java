@@ -18,7 +18,7 @@ import java.util.List;
 public class DeptController {
 
     private final DeptService deptService;
-    private final PoliceService policeService;
+
 
     //부서 추가 Post form
     @PostMapping("/insert")
@@ -61,7 +61,7 @@ public class DeptController {
     //부서 삭제 Post form
     @PostMapping("/delete/{id}")
     public String deptDelete(@PathVariable Long id){
-        deptService.depteDelete(id);
+        deptService.deptDelete(id);
         return "redirect:/dept/list";
     }
 
