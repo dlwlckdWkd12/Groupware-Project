@@ -40,7 +40,7 @@
 ## 🔧 기능 소개
 ###  ❗ 프로젝트 
 #### 1. 회원 기능 - [코드 보기](https://github.com/jichang-lee/Groupware-Project/wiki/%ED%9A%8C%EC%9B%90-%EA%B8%B0%EB%8A%A5)
-#### 2. 부서 기능 - [코드 보기](https://github.com/jichang-lee/Mixtape-shopping/wiki/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88-%EA%B8%B0%EB%8A%A5)
+#### 2. 부서 기능 - [코드 보기](https://github.com/jichang-lee/Groupware-Project/wiki/%EB%B6%80%EC%84%9C-%EA%B8%B0%EB%8A%A5)
 #### 3. 공지사항(게시판) 기능
 #### 4. 공지사항에 대한 댓글 기능
 #### 5. 결재문서 기능
