@@ -11,7 +11,7 @@
 
 ## 🧑‍🤝‍🧑 참여 인원
 - 팀장 : 강창신 - 결재문서 CRUD , 근태 기능 , naver-API
-#### - 팀원1 : 이지창 - 회원CRUD , 부서CRUD , FullCalendar-API , AWS EC2 배포
+#### 팀원1 : 이지창 - 회원CRUD , 부서CRUD , FullCalendar-API , AWS EC2 배포
 - 팀원2 : 김득주 - 로그인&Spring Security , 아이디/비밀번호 찾기
 - 팀원3 : 장효선 - 게시판CRUD , 댓글CRUD , 전체적인 디자인 수정
 - 팀원4 : 허인경 - 사건CRU , KakaoMap-API , left-Menubar 제작
